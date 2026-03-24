@@ -21,8 +21,8 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-2xl mx-auto">
         {/* Logo */}
-        <div className="mx-auto w-36 h-36 md:w-48 md:h-48 rounded-2xl bg-card/95 backdrop-blur-sm p-2 shadow-xl mb-6 overflow-hidden">
-          <img src={logoElSol} alt="Logo Panadería El Sol" className="w-full h-full object-cover rounded-xl" width={512} height={512} />
+        <div className="mx-auto w-36 h-36 md:w-48 md:h-48 rounded-full bg-card/95 backdrop-blur-sm p-2 shadow-xl mb-6 overflow-hidden">
+          <img src={logoElSol} alt="Logo Panadería El Sol" className="w-full h-full object-cover rounded-full" width={512} height={512} />
         </div>
 
         <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-card mb-4 leading-tight">
