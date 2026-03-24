@@ -39,17 +39,10 @@ const HeroSection = () => {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-primary text-primary-foreground font-body font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 animate-pulse-warm"
+          className="inline-block bg-primary text-primary-foreground font-body font-bold text-lg px-8 py-4 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
         >
-          🎂 Cotizar Torta Personalizada
+          Cotizar Torta Personalizada
         </a>
-
-        {/* Badge */}
-        <div className="mt-8 animate-float">
-          <span className="inline-block bg-accent text-accent-foreground font-body font-semibold text-sm md:text-base px-5 py-2.5 rounded-full shadow-md">
-            🔥 ¡Pancito y empanadas calientes hasta las 23:00 hrs!
-          </span>
-        </div>
       </div>
     </section>
   );
