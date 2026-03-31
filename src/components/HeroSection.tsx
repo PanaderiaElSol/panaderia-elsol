@@ -1,7 +1,7 @@
 import logoElSol from "@/assets/logo-elsol.png";
 import heroBread from "@/assets/hero-bread.jpg";
 
-const WHATSAPP_URL = "https://wa.me/56912345678?text=Hola!%20Quiero%20cotizar%20una%20torta%20personalizada";
+const WHATSAPP_URL = "https://wa.me/56988640289?text=Hola!%20Quiero%20cotizar%20una%20torta%20personalizada";
 
 const HeroSection = () => {
   return (

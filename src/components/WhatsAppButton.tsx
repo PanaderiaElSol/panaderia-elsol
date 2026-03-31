@@ -1,6 +1,6 @@
 import { MessageCircle } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/56912345678?text=Hola!%20Quiero%20hacer%20un%20pedido";
+const WHATSAPP_URL = "https://wa.me/56988640289?text=Hola!%20Quiero%20hacer%20un%20pedido";
 
 const WhatsAppButton = () => {
   return (
