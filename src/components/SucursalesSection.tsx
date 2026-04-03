@@ -34,8 +34,6 @@ const SucursalesSection = () => {
         <p className="text-center text-muted-foreground font-body mb-10 md:mb-14 max-w-md mx-auto">
           Locales para que siempre tengas tu pan cerca
         </p>
-
-        {/* Contenedor Horizontal con Topes (Snap) */}
         <div className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scroll-smooth hide-scrollbar px-2 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
           {sucursales.map((s) => (
             <div
