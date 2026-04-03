@@ -5,14 +5,14 @@ const sucursales = [
     nombre: "Gabriela Mistral",
     direccion: "Gabriela Mistral 571",
     horario: "Lunes a Domingo: 7:00 AM a 23:00 hrs",
-    detalle: "Horario continuado",
+    detalle: "",
     img: "/images/locales/gabriela_mistral.jpg",
   },
   {
     nombre: "Río Calle Calle",
     direccion: "Río Calle Calle 4045",
     horario: "Lunes a Domingo: 8:00 AM a 22:00 hrs",
-    detalle: "Horario continuado",
+    detalle: "",
     img: "/images/locales/rio_calle_calle.jpg",
   },
   {
