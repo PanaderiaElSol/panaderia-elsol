@@ -6,21 +6,21 @@ const sucursales = [
     direccion: "Gabriela Mistral 571",
     horario: "Lunes a Domingo: 7:00 AM a 23:00 hrs",
     detalle: "Horario continuado",
-    img: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=800",
+    img: "/images/locales/gabriela_mistral.jpg",
   },
   {
     nombre: "Río Calle Calle",
     direccion: "Río Calle Calle 4045",
     horario: "Lunes a Domingo: 8:00 AM a 22:00 hrs",
     detalle: "Horario continuado",
-    img: "https://images.unsplash.com/photo-1555507036-ab1f40ce88cb?auto=format&fit=crop&q=80&w=800",
+    img: "/images/locales/rio_calle_calle.jpg",
   },
   {
-    nombre: "René Schneider",
+    nombre: "Los Laureles",
     direccion: "René Schneider (Frente Colegio Angachilla)",
     horario: "Lun-Sáb: 7:00 AM a 23:00 hrs",
     detalle: "Dom: 8:00 AM a 22:00 hrs",
-    img: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&q=80&w=800",
+    img: "/images/locales/los_laureles.jpg",
   },
 ];
 
@@ -29,7 +29,7 @@ const SucursalesSection = () => {
     <section className="py-16 md:py-24 bg-background overflow-hidden" id="sucursales">
       <div className="container px-4 mx-auto">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-center mb-3">
-          Nuestras Sucursales
+          Nuestras <span className="text-primary">Sucursales</span>
         </h2>
         <p className="text-center text-muted-foreground font-body mb-10 md:mb-14 max-w-md mx-auto">
           Locales para que siempre tengas tu pan cerca
@@ -65,12 +65,12 @@ const SucursalesSection = () => {
                 </div>
               </div>
 
-              {/* Imagen Provisional de la sucursal (Abajo) */}
-              <div className="h-48 sm:h-56 relative w-full overflow-hidden shrink-0 mt-auto">
+              {/* Imagen de la sucursal (Abajo) */}
+              <div className="h-56 sm:h-64 relative w-full overflow-hidden shrink-0 mt-auto bg-secondary/10 flex items-center justify-center">
                 <img
                   src={s.img}
                   alt={`Sucursal ${s.nombre}`}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 ease-in-out"
+                  className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700 ease-in-out"
                   loading="lazy"
                 />
                 <div className="absolute inset-x-0 top-0 h-10 bg-gradient-to-b from-card to-transparent pointer-events-none" />
