@@ -4,6 +4,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  CarouselDots,
 } from "@/components/ui/carousel";
 import { FadeIn } from "@/components/FadeIn";
 
@@ -45,7 +46,7 @@ const TortasSection = () => {
             <CarouselContent className="-ml-2 md:-ml-4">
               {tortasReales.map((torta, index) => (
                 <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4">
-                  <FadeIn delay={index * 45}>
+                  <FadeIn delay={index * 25}>
                     <div className="group relative rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 aspect-square">
                       <img
                         src={torta.img}
@@ -62,8 +63,9 @@ const TortasSection = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="hidden sm:flex -left-12 bg-background/80 hover:bg-background border-none shadow-md" />
-            <CarouselNext className="hidden sm:flex -right-12 bg-background/80 hover:bg-background border-none shadow-md" />
+            <CarouselPrevious className="hidden md:flex -left-12 bg-background/80 hover:bg-background border-none shadow-md" />
+            <CarouselNext className="hidden md:flex -right-12 bg-background/80 hover:bg-background border-none shadow-md" />
+            <CarouselDots className="mt-8" />
           </Carousel>
         </div>
 

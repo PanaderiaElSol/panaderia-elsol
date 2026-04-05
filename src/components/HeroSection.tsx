@@ -10,7 +10,7 @@ const HeroSection = () => {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src={heroBread}
+          src="/images/landing.jpg"
           alt="Interior de Panadería El Sol"
           className="w-full h-full object-cover"
           width={1920}
